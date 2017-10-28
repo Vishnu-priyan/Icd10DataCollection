@@ -24,7 +24,7 @@ import bs4
 from reqfile import print_in_order,main_link_finder
 url = "http://www.icd10data.com/ICD10CM/Codes/A00-B99/A15-A19"
 
-#texts_class = body-content | link_class = 'identifierSpacing identifier'
+#text_class = body-content | link_class = 'identifierSpacing identifier'
 
 texts,links = main_link_finder(url,'identifierSpacing identifier',"body-content")
 
